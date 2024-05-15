@@ -1,4 +1,7 @@
 import "@/styles/globals.css";
+import '@/styles/BurgerMenu.css'
+import '@/styles/mobile.css';
+
 import type { AppProps } from "next/app";
 
 export default function App({ Component, pageProps }: AppProps) {

@@ -4,7 +4,6 @@ import Header from "@/components/header/Header";
 import Image from "next/image";
 
 export default function Home() {
-
   return (
     <>
       <Head>
@@ -16,31 +15,54 @@ export default function Home() {
 
       <div className="h-screen w-full overflow-x-hidden relative ">
         <Header />
-        <main className="h-[90vh] overflow-hidden mt-[10vh] flex items-center justify-center">
-          <div className="z-30 absolute h-5/6 w-10/12 blurEffect flex justify-between flex-row rounded-md p-10">
-            <div className="w-6/12 h-full flex flex-col justify-center gap-10 items-center">
-              <p className="text-white text-[72px] leading-[85px] font-bold">
-                Discover, collect, and charity in extraordinary NFT marketplace
+        <main className="h-[100vh] overflow-hidden mt-[10vh] sm:mt-6 flex items-center justify-center">
+          <div className="z-30 sm:flex-col-reverse absolute h-5/6 sm:h-6/12  w-10/12 blurEffect flex justify-between flex-row rounded-md p-5 sm:p-0">
+            <div className="w-6/12 sm:w-full  h-full flex flex-col justify-center gap-10 sm:gap-3 items-center">
+              <p className="text-white w-full text-right sm:text-[25px] text-[65px] leading-[85px] sm:leading-[30px] font-bold sm:font-[500]">
+                !ویدیو ببین پول دربیار{" "}
               </p>
-              <p className="text-white text-lg ">
-                In aenean posuere lorem risus nec. Tempor tincidunt aenean purus
-                purus vestibulum nibh mi venenatis
+              <p
+                className="text-[#dfdcdc] text-[31px] sm:text-[15px]  text-right"
+                dir="rtl"
+              >
+                DecentraTap یک پلتفرم Web3 است که به کاربران این امکان را می‌دهد
+                تا با تماشای ویدیوهایی که در پلتفرم قرار دارند، بدون محدودیت در
+                هرجایی که هستید کسب درآمد کنید{" "}
               </p>
-              <div className="w-full h-3/12 flex gap-9 items-center">
-                <button className="background-gradient border-white transition-all duration-200  text-white text-lg rounded-xl  py-[1.5vh] px-[60px] ">
+              <div className="w-full h-3/12 sm:mt-2 flex gap-9 items-center ">
+                <button className="button-shinny-blue  text-white text-lg rounded-xl  py-[1.5vh] sm:py-[.5] px-[60px] sm:px-[20px] ">
                   ثبت نام
                 </button>
-                <button className="bg-transparent border-[1px] border-white transition-all duration-200 text-white text-lg rounded-xl py-[1.5vh] px-[60px] ">
+                <button className="button-shinny-pink text-white text-lg rounded-xl py-[1.5vh] sm:py-[.5] px-[60px] sm:px-[30px] ">
                   ورود
                 </button>
               </div>
             </div>
-            <div className="w-4/12 flex flex-col items-center justify-center">
-              <div className="glass-main-card h-[80%] w-full ">
-                <Image src="" className="rounded-[20px]" alt="video image" width={400} height={400}/>
+            <div className="w-5/12 sm:w-full sm:h-6/12 flex flex-col items-center justify-center">
+              <div className="glass-main-card h-[80%] w-full  ">
+                <div
+                  className={`mobile mobileAnimate mx-auto shadow-2xl`}
+                >
+                  <div className="btn1"></div>
+                  <div className="btn2"></div>
+                  <div className="btn3"></div>
+                  <div className="btn4"></div>
+                  <div className="mobile-int">
+                    <div className="hello">
+                      Feed Us
+                      <span className="mobileScreen text-[1rem] mt-5">
+                        0904 632 9661
+                      </span>
+                    </div>
+                  </div>
+                  <div className="top">
+                    <div className="camera">
+                      <div className="int"></div>
+                    </div>
+                    <div className="speaker"></div>
+                  </div>
+                </div>
               </div>
-
-              
             </div>
           </div>
         </main>

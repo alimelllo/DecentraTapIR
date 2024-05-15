@@ -184,3 +184,48 @@ body {
     opacity: 0;
   }
 }
+
+.button-shinny-blue {
+  
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 500;
+  color: #fff;
+  text-shadow: none;
+  background: transparent;
+  cursor: pointer;
+  box-shadow: transparent;
+  border: 1px solid #fff;
+  transition: 0.5s ease;
+  user-select: none;
+}
+.button-shinny-blue:hover {
+  color: #ffffff;
+  background: #008cff;
+  border: 1px solid #008cff;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+  box-shadow: 0 0 5px #008cff, 0 0 20px #008cff, 0 0 20px #008cff,
+    0 0 100px #008cff;
+}
+.button-shinny-pink {
+  
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 500;
+  color: #fff;
+  text-shadow: none;
+  background: transparent;
+  cursor: pointer;
+  box-shadow: transparent;
+  border: 1px solid #fff;
+  transition: 0.5s ease;
+  user-select: none;
+}
+.button-shinny-pink:hover {
+  color: #ffffff;
+  background: #b300ff;
+  border: 1px solid #b300ff;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+  box-shadow: 0 0 5px #b300ff, 0 0 20px #b300ff, 0 0 20px #b300ff,
+    0 0 100px #b300ff;
+}
