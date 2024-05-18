@@ -3,6 +3,7 @@ import React, { useState } from "react";
 // import Image from "next/image";
 import useIsMobile from "@/hooks/useIsMobile";
 import BurgerMenu from "./BurgerMenu";
+import Link from "next/link";
 function Header() {
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
@@ -46,12 +47,12 @@ function Header() {
         <p className="blue-gradient-hover font-[100] cursor-pointer">پلن درامدی</p>
       </div>
       <div className="w-4/12 h-full flex gap-1 justify-center box-border items-center">
-        <button className="w-2/12 bg-transparent box-border hover:border-[1px] border-white transition-all duration-200  text-white text-sm  rounded-xl  py-[15px] ">
+        <Link href="/register" className="w-2/12 bg-transparent box-border border-white transition-all duration-200  text-white text-sm  rounded-xl  py-[15px] ">
           ثبت نام
-        </button>
-        <button className="w-2/12 bg-transparent box-border hover:border-[1px] border-white transition-all duration-200 text-white text-sm rounded-xl py-[15px]  ">
+        </Link>
+        <Link href="/login" className="w-2/12 bg-transparent box-border border-white transition-all duration-200 text-white text-sm rounded-xl py-[15px]  ">
           ورود
-        </button>
+        </Link>
       </div>
     </header>
   );

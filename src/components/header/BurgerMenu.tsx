@@ -85,7 +85,7 @@ const BurgerMenu = (props: any): any => {
                             leaveTo="transform opacity-0 scale-95"
                         >
                             {open ?
-                                <Menu.Items className="absolute right-0 top-14 !font-[Yekan] rounded-xl shadow-xl bg-transparent text-[1rem] md:right-[-100%] mt-2 w-[100vw] focus:outline-none">
+                                <Menu.Items className="absolute right-0 top-14 !font-[Yekan] rounded-xl shadow-xl bg-white text-[1rem] md:right-[-100%] mt-2 w-[100vw] focus:outline-none">
                                     <Menu.Item>
                                         {({ active }) => (
                                             <button

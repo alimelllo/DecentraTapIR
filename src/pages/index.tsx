@@ -15,7 +15,7 @@ export default function Home() {
 
       <div className="h-screen w-full overflow-x-hidden relative ">
         <Header />
-        <main className="h-[100vh] overflow-hidden mt-[10vh] sm:mt-6 flex items-center justify-center">
+        <main className="h-[90vh] overflow-hidden mt-[10vh] sm:mt-6 flex items-center justify-center">
           <div className="z-30 sm:flex-col-reverse absolute h-5/6 sm:h-6/12  w-10/12 blurEffect flex justify-between flex-row rounded-md p-5 sm:p-0">
             <div className="w-6/12 sm:w-full  h-full flex flex-col justify-center gap-10 sm:gap-3 items-center">
               <p className="text-white w-full text-right sm:text-[25px] text-[65px] leading-[85px] sm:leading-[30px] font-bold sm:font-[500]">
@@ -30,16 +30,16 @@ export default function Home() {
                 هرجایی که هستید کسب درآمد کنید{" "}
               </p>
               <div className="w-full h-3/12 sm:mt-2 flex gap-9 items-center ">
-                <button className="button-shinny-blue  text-white text-lg rounded-xl  py-[1.5vh] sm:py-[.5] px-[60px] sm:px-[20px] ">
+                <a href="/register" className="button-shinny-blue  text-white text-lg rounded-xl  py-[1.5vh] sm:py-[.5] px-[60px] sm:px-[20px] ">
                   ثبت نام
-                </button>
-                <button className="button-shinny-pink text-white text-lg rounded-xl py-[1.5vh] sm:py-[.5] px-[60px] sm:px-[30px] ">
+                </a>
+                <a href="/login" className="button-shinny-pink text-white text-lg rounded-xl py-[1.5vh] sm:py-[.5] px-[60px] sm:px-[30px] ">
                   ورود
-                </button>
+                </a>
               </div>
             </div>
-            <div className="w-5/12 sm:w-full sm:h-6/12 flex flex-col items-center justify-center">
-              <div className="glass-main-card h-[80%] w-full  ">
+            <div className="w-5/12 sm:w-full  flex h-11/12 sm:h-6/12 flex-col items-center justify-center">
+              <div className="glass-main-card h-full w-full  ">
                 <div
                   className={`mobile mobileAnimate mx-auto shadow-2xl`}
                 >
@@ -49,10 +49,7 @@ export default function Home() {
                   <div className="btn4"></div>
                   <div className="mobile-int">
                     <div className="hello">
-                      Feed Us
-                      <span className="mobileScreen text-[1rem] mt-5">
-                        0904 632 9661
-                      </span>
+                  
                     </div>
                   </div>
                   <div className="top">
